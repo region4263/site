@@ -1,0 +1,315 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('img/statue of liberty_1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1200px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    min-width: 1300px;
+    border-bottom: 1px solid #b5b7ba;
+    background-color: #dfdfdf;
+    margin: 0 auto;
+    height: 50px;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.header .selected {
+    color: #000;
+}
+
+.center {
+    width: 1300px;
+    margin: 0 auto;
+    min-height: calc(100vh);
+}
+
+.header a {
+    color: #666666;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: center;
+    text-decoration: none;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.header a:hover{
+    color: #f30d0d;
+    font-weight: 300;
+    border-bottom: 2px solid #f30d0d;
+    padding-bottom: 1px;
+}
+
+.header span {
+    padding: 0 38px;
+}
+
+.content {
+    min-width: 1300px;
+    margin: 0 auto;
+    min-height: calc(100vh - 140px); 
+}
+
+.content h1 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #cb1818;
+    font-size: 40px;
+    font-weight: 300;
+    margin-top: 63px;
+    margin-bottom: 75px;
+}
+
+.content h3 {
+    color: #242424;
+    font-size: 35px;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 41px;
+    margin-bottom: 52px;
+}
+
+.content h4 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #df2626;
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 63px;
+    margin-bottom: 75px;
+}
+
+.content h5 {
+    color:  #242424;
+    font-size: 24px;
+    text-align: left;
+}
+
+.content img {
+    width: 389px;
+    height: 300px;
+    border-radius: 30%;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.content .foto {
+    width: 389px;
+    height: 515px;
+    border-radius: 30%;
+    margin-left: 75px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.content .skin {
+    margin-left: 100px;
+    width: 389px;
+    height: 515px;
+    border-radius: 0%;
+    margin-right: 100px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.content .map {
+    width: 789px;
+    height: 415px;
+    border-radius: 0%;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.content .right {
+    float: right;
+}
+
+.content .box_text_right {
+    width: 671px;
+    /*background-color: #ffffff;*/
+    float: right;
+    padding: 49px 76px 51px 48px;
+    margin-bottom: 50px;
+}
+
+.content .box_text_left {
+    width: 671px;
+    /*background-color: #ffffff;*/
+    float: left;
+    padding: 49px 48px 51px 76px;
+    margin-bottom: 50px;
+}
+
+.content .box_text_right p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.content .box_text_left p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-bottom: 31px;
+}
+
+.content .box_text a  {
+    color: #40678a;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+    text-decoration: none;
+    padding-right:30px;
+}
+
+
+.content .media {
+    margin-right: 0;
+}
+
+.content .box {
+    /*background-color: #ffffff;*/
+    width: 1200px;
+    min-height: 700px;
+    margin: 50px auto 50px auto;
+    padding: 49px 45px 51px 55px;
+    /*padding-top: 37px;
+    padding-left: 38px;
+    padding-right: 38px;
+    padding-bottom: 100px;*/
+}
+
+.content .box p {
+    color: #333333;
+    font-size: 20px;
+    font-weight: 300;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.content .box input {
+    border: 1px solid #a0a0a0;
+    background-color: #f5f5f5;
+    width: 457px;
+    height: 34px;
+    padding-left:10px;
+    font-size:20px;
+    font-weight: 100;
+    margin-bottom: 12px;
+}
+
+.content .box a {
+    display: block;
+    float: left;
+    background-color:  #8cbbd3;
+    color:  #ffffff;
+    font-size: 16px;
+    font-weight: 220;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 30px;
+    padding:11px 11px;
+    border-radius: 50%;
+}
+
+.content .box a:hover {
+    background-color: #999999;
+}
+
+.footer {
+    background-color: #434445;
+    min-width: 100%;
+    float: left;
+    height: 140px;
+    text-align: center;
+    color: #a4a4a4;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 140px;
+}
+
+.footer a {
+    color: inherit;
+}
+
+
+.telegram-button {
+    position: fixed;
+    right: 45px;
+    bottom: 90px;
+    transform: translate(-50%, -50%);
+    background: #0088cc; /*цвет кнопки*/
+    border-radius: 50%;
+    width: 85px; /*ширина кнопки*/
+    height: 85px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 86px; /*центровка иконки в кнопке*/
+    font-size: 70px; /*размер иконки*/
+    z-index: 9999;
+}
+.telegram-button a {
+    color: #fff;
+}
+.telegram-button:before,
+.telegram-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%;
+    border: 1px solid #777; /*цвет анимированных волн от кнопки*/
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+ 
+.telegram-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
